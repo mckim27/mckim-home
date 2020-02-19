@@ -1,0 +1,73 @@
+{
+  "url": "https://mckim27.github.io/",
+  "meta": {
+    "favicon": "https://i.imgur.com/u9yRiHt.png",
+    "keyword": "mckim27, blog, Kubenetes, MLOps",
+    "description": "mckim27 Tech Blog",
+    "theme_color": "#303030",
+    "google_site_verification": ""
+  },
+  "name": "mckim27",
+  "about": "/2020/02/19/about-mckim27/",
+  "email": "bluevoice27@gmail.com",
+  "stats": {
+    "image": "https://i.imgur.com/VjBWiSt.png",
+    "title": "title?",
+    "description": "desc ?"
+  },
+  "title": "mckim27 Tech Blog",
+  "gitalk": {
+    "repo": "mckim27.github.io",
+    "admin": ["mckim27"],
+    "owner": "mckim27",
+    "clientID": "632a703fd13f60cad51d",
+    "clientSecret": "f0013fc02b4dfda1d844c3c826d3f12792ed1c4b",
+    "pagerDirection": "first",
+    "distractionFreeMode": true
+  },
+  "License": "by",
+  "friends": [
+    {
+      "href": "https://landscape.cncf.io/",
+      "title": "CNCF Landscape"
+    },
+    {
+      "href": "https://www.apache.org/index.html#projects-list",
+      "title": "Apache Project List"
+    }
+  ],
+  "iconUrl": "https://i.imgur.com/UdalDjG.png",
+  "wordings": ["Server-Backend & MLOps Developer", "Orchestration"],
+  "gaTrackId": "",
+  "navbarList": [
+    {
+      "href": "/guestbook/",
+      "title": "Guest Book"
+    },
+    {
+      "href": "/tags/",
+      "title": "Tags"
+    },
+    {
+      "href": "/2020/02/19/about-mckim27/",
+      "title": "About"
+    }
+  ],
+  "redirectors": [
+    {
+      "toPath": "/2020/02/19/about-mckim27/",
+      "fromPath": "/about/"
+    }
+  ],
+  "gaOptimizeId": "",
+  "carouselItems": [
+    {
+      "src": "https://i.imgur.com/gw91CuI.jpg",
+      "target": "/stats/"
+    }
+  ],
+  "zhihuUsername": "",
+  "githubUsername": "mckim27",
+  "maxPostsInPage": 10,
+  "facebook": ""
+}

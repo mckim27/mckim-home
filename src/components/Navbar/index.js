@@ -34,10 +34,10 @@ const Navbar = () => (
         }}
       >
         <span className="brand-logo">
-          &nbsp;$ ➜&nbsp;<font color="#00bfff">mckim-home</font>&nbsp;
+          &nbsp;$ ➜&nbsp;<font color="#00bfff">/home/mckim</font>&nbsp;
           <font color="#4682b4">git:(</font>
           <font color="#dc143c">master</font>
-          <font color="#4682b4">)</font>&nbsp;✗&nbsp;
+          <font color="#4682b4">)</font>&nbsp;✗
           <span className="cursor" />&nbsp;
         </span>
       </button>

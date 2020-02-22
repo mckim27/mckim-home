@@ -2,6 +2,8 @@ import React from 'react';
 import { Link, StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faIdCard } from '@fortawesome/free-regular-svg-icons'
+
 
 import { config } from '../../../data';
 
@@ -41,9 +43,14 @@ const Sidebar = ({ totalCount, latestPosts }) => (
       </Link>
       <p className="mb-1">{wordings[0]}</p>
       <p className="mb-3">{wordings[1]}</p>
+
       <Icon
         href={`https://github.com/${githubUsername}`}
         icon={['fab', 'github']}
+      />
+      <Icon
+          href={`https://sourcerer.io/${githubUsername}`}
+          icon={faIdCard}
       />
       <Icon href={`mailto:${email}`} icon={['far', 'envelope']} />
       {facebook

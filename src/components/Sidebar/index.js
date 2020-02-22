@@ -48,12 +48,10 @@ const Sidebar = ({ totalCount, latestPosts }) => (
         href={`https://github.com/${githubUsername}`}
         icon={['fab', 'github']}
       />
-      /*
-      <Icon
-          href={`https://sourcerer.io/${githubUsername}`}
-          icon={faIdCard}
-      />
-      */
+      {/*<Icon*/}
+      {/*    href={`https://sourcerer.io/${githubUsername}`}*/}
+      {/*    icon={faIdCard}*/}
+      {/*/>*/}
       <Icon href={`mailto:${email}`} icon={['far', 'envelope']} />
       {facebook
         && <Icon href={`https://www.facebook.com/${facebook}/`} icon={['fab', 'facebook']} />

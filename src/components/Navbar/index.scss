@@ -24,6 +24,12 @@
         border-radius: $radius;
         color: $white;
         padding: 1px 5px 2px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-weight: 700;
+        font-display: auto;
+        font-family: monospace,monospace;
       }
 
       &:hover {
@@ -52,4 +58,20 @@
       }
     }
   }
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1rem;
+  background: #fe5186;
+  margin-left: 5px;
+  border-radius: 1px;
+  animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
 }

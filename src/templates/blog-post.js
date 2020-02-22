@@ -76,7 +76,11 @@ class BlogPost extends Component {
             <h3>Development Philosophy = <font color="red">"Simple is Best !!"</font></h3><br/><br/>
             <ExternalLink
               href="https://github.com/mckim27/"
-              title="My Github Link"
+              title="My Github"
+            />&nbsp;,&nbsp;
+            <ExternalLink
+                href="https://sourcerer.io/mckim27"
+                title="Sourcerer.io info"
             />
           </div>
 
